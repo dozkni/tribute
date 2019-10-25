@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Простой стол</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Простой стол" id="header-img"></a>
+        </div>
+        <div id="nav-icon">
+            <div id="burger">
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+            </div>
+        </div>
+        <nav id="nav-bar">
+            <ul id="nav-bar-ul">
+                <li><a class="nav-link" href="#features">Достоинства</a></li>
+                <li><a class="nav-link" href="#how-it-works">Как&nbsp;это&nbsp;работает</a></li>
+                <li><a class="nav-link" href="#prices">Цены</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="header-place"></div>
+    <main id="main">
+        <div class="wrap">
+            <section id="get-price">
+                <h2 id="title">Не тратить время и сразу получить прайс</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder=" Введите адрес элетронной почты"
+                        required="">
+                    <input id="submit" type="submit" value="Получить прайс" class="button">
+                </form>
+            </section>
+
+            <section id="features">
+                <div id="feature-icon-1" class="feature-icon"></div>
+                <div>
+                    <h2>Простая и удобная конструкция</h2>
+                    <p>Минимум деталей и простая плоскость для максимально комфортной работы. Это то, что вы искали</p>
+                </div>
+                <div id="feature-icon-2" class="feature-icon"></div>
+                <div>
+                    <h2>Усиленная столешница</h2>
+                    <p>Толщина столешницы - 32мм. Она вообще не прогибается даже при максимальной длине стола</p>
+                </div>
+                <div id="feature-icon-3" class="feature-icon"></div>
+                <div>
+                    <h2>Выбирайте длину стола на свой вкус</h2>
+                    <p>Мы зафиксировали глубину стола размером 700мм, а высоту - 750мм. Это предельно эргономичные
+                        значения. А вот вариантов длины сделали много разных</p>
+                </div>
+                <div id="feature-icon-4" class="feature-icon"></div>
+                <div>
+                    <h2>Низкая цена и высокое качество</h2>
+                    <p>Простая конструкция и недорогие, но качественные материалы минского завода ДСП</p>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video"
+                    src="https://www.youtube-nocookie.com/embed/o2jAuelVpmE?rel=0&amp;controls=0&amp;showinfo=0"
+                    allowfullscreen="" height="315" frameborder="0"></iframe>
+            </section>
+            <section id="prices">
+                <div>
+                    <div class="price-header">
+                        <h3>Стол</h3>
+                    </div>
+                    <div class="price-body">
+                        <span class="price">&#8381; 3480</span>
+                        <p>Длина стола 1200 мм</p>
+                        <p>Толщина столешницы 32 мм</p>
+                        <p>Качественная фурнитура</p>
+                    </div>
+                    <div><button type="submit" class="button">Заказать</button></div>
+                </div>
+                <div>
+                    <div class="price-header">
+                        <h3>Тумба</h3>
+                    </div>
+                    <div class="price-body">
+                        <span class="price">&#8381; 2450</span>
+                        <p>3 прочных ящика</p>
+                        <p>Качественные телескопические штанги</p>
+                        <p>Мягкие большие ролики</p>
+                    </div>
+                    <div><button type="submit" class="button">Заказать</button></div>
+                </div>
+                <div>
+                    <div class="price-header">
+                        <h3>Стол и тумба</h3>
+                    </div>
+                    <div class="price-body">
+                        <span class="price">&#8381; 3980</span>
+                        <p>Длина стола 1200 мм</p>
+                        <p>Тубма с тремя ящиками</p>
+                        <p>Можно поставить вместе и раздельно</p>
+                    </div>
+                    <div><button type="submit" class="button">Заказать</button></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrap">
+            <p>2019 Простой стол</p>
+        </div>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
